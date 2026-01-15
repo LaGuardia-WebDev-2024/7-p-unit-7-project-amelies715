@@ -16,10 +16,17 @@ draw = function(){
  
   background(255,255,255,0);
   
-//ball
+//position of ball
+var x = 10;
+
+draw = function() {
+
+  // all lines of code in here will be run repeatedly
+  // ball
 fill (255,60,25);
 ellipse(200,100,sunRadius,sunRadius);
-
+x = x + 1;
+};
 
 
 
